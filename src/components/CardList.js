@@ -3,6 +3,11 @@ import Card from './Card';
 
 
 const CardList = ({robots}) => {
+    //if statement to check if ErrorBoundry works.
+    
+    // if (true){
+    //     throw new Error('noooooo');
+    // }
     return (
         <div>
             {robots.map((user, index) => {
